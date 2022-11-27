@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgba(54, 161, 143, 0.959);
+    padding: 10px 20px 0px;
+    color: white;
+}
+.header {
+    background-color: rgb(252, 252, 252);
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(252, 252, 252);
+    min-height: 300px;
+        padding: 20px;   
+    
+}
+.footer {
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(109, 226, 201);
+    min-height: 120px;
+    color: white;
+}
+
+.demo {
+		border:1px sólido #C0C0C0;
+		border-collapse:colapso;
+		padding:5px;
+	}
+	.demo th {
+		border:1px sólido #C0C0C0;
+		padding:5px;
+		background:#F0F0F0;
+	}
+	.demo td {
+		border:1px sólido #C0C0C0;
+		padding:5px;
+	}
+
+    form {
+    
+    
+        width: 400px;
+       
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+    }
+    form div + div {
+        margin-top: 1em;
+    }
+    label {
+       
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+    }
+    input, textarea {
+       
+        font: 1em sans-serif;
+    
+        
+        width: 300px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    
+       
+        border: 1px solid #999;
+    }
+    
+    input:focus, textarea:focus {
+        
+        border-color: #000;
+    }
+    
+    textarea {
+        
+        vertical-align: top;
+    
+        
+        height: 5em;
+    
+       
+        resize: vertical;
+    }
+    .button {
+       
+        padding-left: 90px; 
+    }
+    button {
+       
+        margin-left: .5em;
+    }
+    
